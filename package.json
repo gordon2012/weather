@@ -1,0 +1,35 @@
+{
+  "name": "weather",
+  "version": "1.0.0",
+  "description": "TODO\r - setup npm and configs",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "production": "webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gordon2012/weather.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gordon2012/weather/issues"
+  },
+  "homepage": "https://github.com/gordon2012/weather#readme",
+  "dependencies": {
+    "axios": "^0.10.0",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "react-router": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.7.7",
+    "babel-loader": "^6.2.4",
+    "babel-preset-react": "^6.5.0",
+    "html-webpack-plugin": "^2.16.0",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1"
+  }
+}

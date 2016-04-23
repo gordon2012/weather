@@ -1,5 +1,10 @@
 # weather
-
 ## Local Weather
 
-### A Zipline for freeCodeCamp
+A weather app
+
+TODO
+
+
+DONE
+- setup npm and configs
