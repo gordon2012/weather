@@ -8,3 +8,4 @@ TODO
 
 DONE
 - setup npm and configs
+- setup routing
