@@ -4,8 +4,8 @@
   "description": "TODO\r - setup npm and configs",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server",
-    "production": "webpack -p"
+    "start": "webpack-dev-server --define process.env.NODE_ENV='\"development\"'",
+    "production": "webpack -p --define process.env.NODE_ENV='\"production\"'"
   },
   "repository": {
     "type": "git",

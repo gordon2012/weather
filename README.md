@@ -10,3 +10,4 @@ DONE
 - setup npm and configs
 - setup routing
 - add UI
+- test environment variables
