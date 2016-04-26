@@ -5,14 +5,15 @@ var Link = ReactRouter.Link;
 
 var Home = React.createClass({
 	render: function() {
-		return <div className="text-center">
-			<div className="jumbotron">
-				<h1>Weather</h1>
-				<p>A weather app</p>
+		return <div className="text-center bg-warning">
+			<div>
+				<h2>Enter a City and State</h2>
+				<input placeholder="Mountain View, CA"/>
+				<div>&nbsp;</div>
+				<Link to="/forecast">
+					<button className="btn btn-lg btn-success">Get Weather</button>
+				</Link>
 			</div>
-			<Link to="/forecast">
-				<button className="btn btn-lg btn-success">Begin</button>
-			</Link>
 		</div>
 	}
 });
